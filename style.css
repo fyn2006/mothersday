@@ -146,19 +146,19 @@ body {
 /* Rotate specific images */
 
 .photo-slot:nth-child(1) img {
-  transform: rotate(180deg);
-}
-
-.photo-slot:nth-child(2) img {
   transform: rotate(90deg);
 }
 
-.photo-slot:nth-child(3) img {
+.photo-slot:nth-child(2) img {
   transform: rotate(180deg);
 }
 
+.photo-slot:nth-child(3) img {
+  transform: rotate(90deg);
+}
+
 .photo-slot:nth-child(4) img {
-  transform: rotate(180deg);
+  transform: rotate(90deg);
 }
 
 .signature {
