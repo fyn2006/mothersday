@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mother's Day Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
+  <main class="page">
+
+    <section class="envelope-screen" id="envelopeScreen">
+      <div class="envelope" id="envelope">
+        <div class="flap"></div>
+        <div class="front">
+          <p class="to">To: Mom</p>
+          <p class="from">Happy Mother's Day</p>
+        </div>
+      </div>
+
+      <button class="open-btn" id="openBtn">Open Card</button>
+    </section>
+
+    <section class="card hidden" id="card">
+      <h1>Happy Mother's Day</h1>
+
+      <p class="message">
+        Thank you for everything you do. I’m grateful for your love,
+        support, and all the little things that mean more than you know.
+      </p>
+
+      <div class="photo-grid">
+        <div class="photo-slot">
+          <img src="images/photo1.jpg" alt="Memory 1" />
+        </div>
+        <div class="photo-slot">
+          <img src="images/photo2.jpg" alt="Memory 2" />
+        </div>
+        <div class="photo-slot">
+          <img src="images/photo3.jpg" alt="Memory 3" />
+        </div>
+        <div class="photo-slot">
+          <img src="images/photo4.jpg" alt="Memory 4" />
+        </div>
+      </div>
+
+      <p class="signature">
+        Love,<br />
+        Your Name
+      </p>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
