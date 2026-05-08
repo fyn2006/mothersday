@@ -143,6 +143,24 @@ body {
   object-fit: cover;
 }
 
+/* Rotate specific images */
+
+.photo-slot:nth-child(1) img {
+  transform: rotate(180deg);
+}
+
+.photo-slot:nth-child(2) img {
+  transform: rotate(90deg);
+}
+
+.photo-slot:nth-child(3) img {
+  transform: rotate(180deg);
+}
+
+.photo-slot:nth-child(4) img {
+  transform: rotate(180deg);
+}
+
 .signature {
   margin-top: 30px;
   font-size: 1.2rem;
