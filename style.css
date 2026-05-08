@@ -16,8 +16,6 @@ body {
   align-items: center;
 }
 
-/* Envelope screen */
-
 .envelope-screen {
   text-align: center;
 }
@@ -93,8 +91,6 @@ body {
   opacity: 0;
 }
 
-/* Card */
-
 .card {
   width: min(90%, 760px);
   background: #fffaf7;
@@ -141,24 +137,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-/* Rotate specific images */
-
-.photo-slot:nth-child(1) img {
-  transform: rotate(90deg);
-}
-
-.photo-slot:nth-child(2) img {
-  transform: rotate(180deg);
-}
-
-.photo-slot:nth-child(3) img {
-  transform: rotate(90deg);
-}
-
-.photo-slot:nth-child(4) img {
-  transform: rotate(90deg);
+  transform: rotate(90deg) scale(1.35);
 }
 
 .signature {
@@ -171,6 +150,7 @@ body {
     opacity: 0;
     transform: translateY(35px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -199,4 +179,5 @@ body {
   .photo-grid {
     grid-template-columns: 1fr;
   }
+}
 }
